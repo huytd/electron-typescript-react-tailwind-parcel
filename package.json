@@ -1,0 +1,26 @@
+{
+  "name": "electron-typescript-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Huy",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.8.5",
+    "electron": "^6.0.2",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "tailwindcss": "^1.1.2"
+  },
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "app": "electron electron.js",
+    "dist": "parcel build ./index.html",
+    "watch": "parcel watch ./index.html --public-url ./ --target=electron-renderer"
+  },
+  "devDependencies": {
+    "sass": "^1.22.10",
+    "typescript": "^3.5.3"
+  }
+}

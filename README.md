@@ -12,7 +12,7 @@ To start the development app locally, run:
 
 and
 
-    $ yarn apps
+    $ yarn app
 
 # Work as a web app
 
